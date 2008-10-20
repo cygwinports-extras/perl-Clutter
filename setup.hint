@@ -1,5 +1,5 @@
 category: Perl Gnome
-requires: cygwin glib2 gdk-pixbuf2 gtk2-x11 libclutter0.8 libclutter-cairo0.8 libclutter-gst0.8 libclutter-gtk0.8 pango perl perl-Cairo perl-Glib perl-GStreamer perl-Gtk2
+requires: cygwin glib2 gdk-pixbuf2 gtk2-x11 libclutter0.8_0 libclutter-cairo0.8_0 libclutter-gst0.8_0 libclutter-gtk0.8_0 pango perl perl-Cairo perl-Glib perl-GStreamer perl-Gtk2
 sdesc: "Perl Clutter bindings"
 ldesc: "Perl bindings to the Clutter OpenGL canvas.  Clutter aims to 
 give a nice and easy GObject based API for creating fast, heavily 

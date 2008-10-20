@@ -9,10 +9,10 @@ Runtime requirements:
   gdk-pixbuf2-2.12.12-1
   glib2-2.16.6-1
   gtk2-x11-2.12.12-1
-  libclutter0.8-0.8.2-1
-  libclutter-cairo0.8-0.8.2-1
-  libclutter-gst0.8-0.8.0-1
-  libclutter-gtk0.8-0.8.2-1
+  libclutter0.8_0-0.8.2-1
+  libclutter-cairo0.8_0-0.8.2-1
+  libclutter-gst0.8_0-0.8.0-1
+  libclutter-gtk0.8_0-0.8.2-1
   pango-1.20.5-1
   perl-5.10.0-5
   perl-Cairo-1.060-1
