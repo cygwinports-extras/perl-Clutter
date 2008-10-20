@@ -1,0 +1,210 @@
+perl-Clutter
+------------------------------------------
+Perl bindings to the Clutter OpenGL canvas.  Clutter aims to give a nice
+and easy GObject based API for creating fast, heavily stylised applications,
+such as media box UI, presentations, kiosk style applications, etc.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  gdk-pixbuf2-2.12.12-1
+  glib2-2.16.6-1
+  gtk2-x11-2.12.12-1
+  libclutter0.8-0.8.2-1
+  libclutter-cairo0.8-0.8.2-1
+  libclutter-gst0.8-0.8.0-1
+  libclutter-gtk0.8-0.8.2-1
+  pango-1.20.5-1
+  perl-5.10.0-5
+  perl-Cairo-1.060-1
+  perl-Glib-1.183-1
+  perl-GStreamer-0.11-1
+  perl-Gtk2-1.183-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cygport-0.4.1-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-ExtUtils-Depends-0.300-2
+  perl-ExtUtils-PkgConfig-1.11-1
+
+Canonical website:
+  http://www.clutter-project.org/
+  http://search.cpan.org/dist/Clutter/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/E/EB/EBASSI/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Clutter-0.820-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Clutter-0.820-X.cygport all
+
+This will create:
+  /usr/src/perl-Clutter-0.820-X-src.tar.bz2
+  /usr/src/perl-Clutter-0.820-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Actor.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/ActorBox.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Alpha.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Angle.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Backend.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Behaviour.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Behaviour/Bspline.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Behaviour/Depth.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Behaviour/Ellipse.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Behaviour/Opacity.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Behaviour/Path.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Behaviour/Rotate.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Behaviour/Scale.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/ChildMeta.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Cogl.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Cogl/Handle.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Cogl/Texture.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Color.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Container.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Container/ForeachFunc.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Cookbook.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Effect.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Entry.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Event.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Event/Button.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Event/Crossing.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Event/Key.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Event/Motion.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Event/Scroll.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Event/StageState.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Fixed.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Geometry.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Group.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Gst.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Gst/Audio.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Gst/VideoSink.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Gst/VideoTexture.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Gtk.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Install/clutter.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Install/clutterperl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Install/clutterperl.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Install/clutterperl.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Keysyms.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Knot.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Label.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/ListModel.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Media.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Model.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Model/Iter.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/ParamSpec.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Rectangle.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Score.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Script.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Shader.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Stage.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/StageManager.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/TestHelper.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Texture.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Texture/Cairo.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Texture/Clone.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Threads.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Timeline.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Units.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/Vertex.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/index.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/main.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Clutter/version.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/ClutterEmbed.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/ClutterTexture.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/ClutterUtil.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Clutter/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Clutter/Clutter.dll
+  /usr/share/doc/perl-Clutter-0.820/AUTHORS
+  /usr/share/doc/perl-Clutter-0.820/ChangeLog
+  /usr/share/doc/perl-Clutter-0.820/NEWS
+  /usr/share/doc/perl-Clutter-0.820/README
+  /usr/share/man/man3/Clutter.3pm.gz
+  /usr/share/man/man3/Clutter.Actor.3pm.gz
+  /usr/share/man/man3/Clutter.ActorBox.3pm.gz
+  /usr/share/man/man3/Clutter.Alpha.3pm.gz
+  /usr/share/man/man3/Clutter.Angle.3pm.gz
+  /usr/share/man/man3/Clutter.Backend.3pm.gz
+  /usr/share/man/man3/Clutter.Behaviour.3pm.gz
+  /usr/share/man/man3/Clutter.Behaviour.Bspline.3pm.gz
+  /usr/share/man/man3/Clutter.Behaviour.Depth.3pm.gz
+  /usr/share/man/man3/Clutter.Behaviour.Ellipse.3pm.gz
+  /usr/share/man/man3/Clutter.Behaviour.Opacity.3pm.gz
+  /usr/share/man/man3/Clutter.Behaviour.Path.3pm.gz
+  /usr/share/man/man3/Clutter.Behaviour.Rotate.3pm.gz
+  /usr/share/man/man3/Clutter.Behaviour.Scale.3pm.gz
+  /usr/share/man/man3/Clutter.ChildMeta.3pm.gz
+  /usr/share/man/man3/Clutter.Cogl.3pm.gz
+  /usr/share/man/man3/Clutter.Cogl.Handle.3pm.gz
+  /usr/share/man/man3/Clutter.Cogl.Texture.3pm.gz
+  /usr/share/man/man3/Clutter.Color.3pm.gz
+  /usr/share/man/man3/Clutter.Container.3pm.gz
+  /usr/share/man/man3/Clutter.Container.ForeachFunc.3pm.gz
+  /usr/share/man/man3/Clutter.Cookbook.3pm.gz
+  /usr/share/man/man3/Clutter.Effect.3pm.gz
+  /usr/share/man/man3/Clutter.Entry.3pm.gz
+  /usr/share/man/man3/Clutter.Event.3pm.gz
+  /usr/share/man/man3/Clutter.Event.Button.3pm.gz
+  /usr/share/man/man3/Clutter.Event.Crossing.3pm.gz
+  /usr/share/man/man3/Clutter.Event.Key.3pm.gz
+  /usr/share/man/man3/Clutter.Event.Motion.3pm.gz
+  /usr/share/man/man3/Clutter.Event.Scroll.3pm.gz
+  /usr/share/man/man3/Clutter.Event.StageState.3pm.gz
+  /usr/share/man/man3/Clutter.Fixed.3pm.gz
+  /usr/share/man/man3/Clutter.Geometry.3pm.gz
+  /usr/share/man/man3/Clutter.Group.3pm.gz
+  /usr/share/man/man3/Clutter.Gst.3pm.gz
+  /usr/share/man/man3/Clutter.Gst.Audio.3pm.gz
+  /usr/share/man/man3/Clutter.Gst.VideoSink.3pm.gz
+  /usr/share/man/man3/Clutter.Gst.VideoTexture.3pm.gz
+  /usr/share/man/man3/Clutter.Gtk.3pm.gz
+  /usr/share/man/man3/Clutter.Keysyms.3pm.gz
+  /usr/share/man/man3/Clutter.Knot.3pm.gz
+  /usr/share/man/man3/Clutter.Label.3pm.gz
+  /usr/share/man/man3/Clutter.ListModel.3pm.gz
+  /usr/share/man/man3/Clutter.Media.3pm.gz
+  /usr/share/man/man3/Clutter.Model.3pm.gz
+  /usr/share/man/man3/Clutter.Model.Iter.3pm.gz
+  /usr/share/man/man3/Clutter.ParamSpec.3pm.gz
+  /usr/share/man/man3/Clutter.Rectangle.3pm.gz
+  /usr/share/man/man3/Clutter.Score.3pm.gz
+  /usr/share/man/man3/Clutter.Script.3pm.gz
+  /usr/share/man/man3/Clutter.Shader.3pm.gz
+  /usr/share/man/man3/Clutter.Stage.3pm.gz
+  /usr/share/man/man3/Clutter.StageManager.3pm.gz
+  /usr/share/man/man3/Clutter.Texture.3pm.gz
+  /usr/share/man/man3/Clutter.Texture.Cairo.3pm.gz
+  /usr/share/man/man3/Clutter.Texture.Clone.3pm.gz
+  /usr/share/man/man3/Clutter.Threads.3pm.gz
+  /usr/share/man/man3/Clutter.Timeline.3pm.gz
+  /usr/share/man/man3/Clutter.Units.3pm.gz
+  /usr/share/man/man3/Clutter.Vertex.3pm.gz
+  /usr/share/man/man3/Clutter.index.3pm.gz
+  /usr/share/man/man3/Clutter.main.3pm.gz
+  /usr/share/man/man3/Clutter.version.3pm.gz
+  /usr/share/man/man3/Gtk2.ClutterEmbed.3pm.gz
+  /usr/share/man/man3/Gtk2.ClutterTexture.3pm.gz
+  /usr/share/man/man3/Gtk2.ClutterUtil.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.820-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
